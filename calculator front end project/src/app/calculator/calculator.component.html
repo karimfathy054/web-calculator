@@ -1,0 +1,33 @@
+<div class="calculator">
+    <h1>calculator</h1>
+    <div>
+        <input class="result" type="text" readonly value="{{ expression }}">
+        <input class="result" type="text" readonly value="{{ current  }}">
+    </div>
+    <div>
+        <button class="responsive"  value="%" (click)="percent();operate()"> % </button>
+        <button class="responsive"  value="CE" (click)="clear()"> CE </button>
+        <button class="responsive"  value="C" (click)="clear()"> C </button>
+        <button class="responsive"  value="backspace" (click)="backspace()"> ← </button>
+        <button class="responsive"  value="1/x" (click)="inverse();operate()"> 1/x </button>
+        <button class="responsive"  value="square" (click)="square();operate()"> x^2 </button>
+        <button class="responsive"  value="sqrt" (click)="sqRoot();operate()"> √X </button>
+        <button class="responsive"  value="/" (click)="divide()"> / </button>
+        <button class="responsive"  value="7" (click)="append('7')"> 7 </button>
+        <button class="responsive"  value="8" (click)="append('8')"> 8 </button>
+        <button class="responsive"  value="9" (click)="append('9')"> 9 </button>
+        <button class="responsive"  value="*" (click)="multiply()"> * </button>
+        <button class="responsive"  value="4" (click)="append('4')"> 4 </button>
+        <button class="responsive"  value="5" (click)="append('5')"> 5 </button>
+        <button class="responsive"  value="6" (click)="append('6')"> 6 </button>
+        <button class="responsive"  value="-" (click)="minus()"> - </button>
+        <button class="responsive"  value="1" (click)="append('1')"> 1 </button>
+        <button class="responsive"  value="2" (click)="append('2')"> 2 </button>
+        <button class="responsive"  value="3" (click)="append('3')"> 3 </button>
+        <button class="responsive"  value="+" (click)="add()"> + </button>
+        <button class="responsive"  value="+/-" (click)="sign()"> +/- </button>
+        <button class="responsive"  value="0" (click)="append('0')"> 0 </button>
+        <button class="responsive"  value="." (click)="dot()"> . </button>
+        <button class="responsive"  value="=" (click)="equal();equalisclicked()"> = </button>
+    </div>
+</div>
