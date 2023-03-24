@@ -13,7 +13,7 @@ simple calculator in the form of a web app as a programming assignment for progr
 
 ## Screenshots
 
-![frontend user interface](/screenshot)
+![frontend user interface](/screenshot.png)
 
 ## People worked on this project
 
