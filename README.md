@@ -1,7 +1,7 @@
 # web-calculator
 simple calculator in the form of a web app as a programming assignment for programmingII course
 
->>that project was the first exposition to Angular and SpringBoot
+>that project was the first exposition to Angular and SpringBoot
 
 - **bussiness logic was implemented in java**
 
